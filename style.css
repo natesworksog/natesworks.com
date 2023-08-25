@@ -16,11 +16,11 @@ body {
 }
 
 h1 {
-    font-size: 40px;
-    text-align: center;
+	font-size: 40px;
+	text-align: center;
 }
 
-.container{
+.container {
 	cursor: pointer;
 	position: absolute;
 	top: 5%;
@@ -29,14 +29,14 @@ h1 {
 	height: 20px;
 }
 
-.bars{
+.bars {
 	width: 30px;
 	height: 4px;
 	background: #000;
 }
 
 .bars::before,
-.bars::after{
+.bars::after {
 	content: '';
 	position: absolute;
 	width: 30px;
@@ -44,15 +44,15 @@ h1 {
 	background: #000;
 }
 
-.bars::before{
+.bars::before {
 	margin-top: 9px;
 }
 
-.bars::after{
+.bars::after {
 	margin-top: 18px;
 }
 
-nav{
+nav {
 	position: absolute;
 	width: 100%;
 	height: 30px;
@@ -67,11 +67,11 @@ nav ul {
 	list-style: none;
 }
 
-nav ul li{
+nav ul li {
 	margin: 50px 0;
 }
 
-nav ul li a{
+nav ul li a {
 	color: #fafafa;
 	font-size: 2em;
 	text-decoration: none;
@@ -81,7 +81,7 @@ nav ul li a{
 	pointer-events: none;
 }
 
-nav ul li a:after{
+nav ul li a:after {
 	content: '';
 	width: 100%;
 	position: absolute;
@@ -96,7 +96,7 @@ nav ul li a:after{
 }
 
 
-nav ul li a:hover:after{
+nav ul li a:hover:after {
 	transform: scaleX(1);
 }
 
@@ -111,9 +111,9 @@ nav .close {
 	pointer-events: none;
 }
 
-nav h2{
+nav h2 {
 	position: absolute;
-	top:5%;
+	top: 5%;
 	left: 5%;
 	opacity: 0;
 	pointer-events: none;
@@ -122,7 +122,7 @@ nav h2{
 }
 
 nav .close div::before,
-nav .close div::after{
+nav .close div::after {
 	content: '';
 	position: absolute;
 	width: 30px;
@@ -130,21 +130,30 @@ nav .close div::after{
 	background: #fff;
 	transition: background .5s ease;
 }
-nav .close div::before{
+
+nav .close div::before {
 	transform: rotate(-45deg);
 }
 
-nav .close div::after{
+nav .close div::after {
 	transform: rotate(45deg);
 }
 
 nav .close:hover div::before,
-nav .close:hover div::after{
+nav .close:hover div::after {
 	background: rgb(209, 3, 3);
 }
 
-@media (max-width: 992px){
-  h1{
-    font-size: 25px;
-  }
+@media (max-width: 992px) {
+	h1 {
+		font-size: 25px;
+	}
+}
+
+a {
+	color: coral;
+}
+
+.content {
+	padding: 50px;
 }
