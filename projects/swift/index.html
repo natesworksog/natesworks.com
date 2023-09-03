@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="/style.css">
+	<title>Natesworks.com - Swift OS</title>
+</head>
+<style>
+	body {
+		background-image: url(assets/login.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		backdrop-filter: blur(5px);
+		margin: 0;
+		font-family: 'Montserrat', sans-serif;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 100vh;
+	}
+
+	.content {
+		text-align: center;
+		color: white;
+		position: relative;
+	}
+
+	.content h1 {
+		font-size: 11em;
+		margin: 0;
+	}
+
+	.content p {
+		font-size: 1.5em;
+		margin: 20px 0;
+	}
+
+	.content .buttons {
+		display: flex;
+		justify-content: center;
+		margin-top: 20px;
+	}
+
+	.content .buttons button {
+		margin: 10px;
+		padding: 20px 50px;
+		border: #83a0f4 1px solid;
+		border-radius: 35px;
+		letter-spacing: 2px;
+		font-family: 'Montserrat', sans-serif; /* Apply the same font as h1 */
+		color: #ffffff;
+		display: inline-block;
+		transition: background-color 0.5s ease, box-shadow 0.5s ease;
+		background-color: transparent;
+		cursor: pointer;
+		box-shadow: 0 0 10px 5px transparent;
+	}
+
+	.content .buttons button:hover {
+		background-color: #83a0f4;
+		box-shadow: 0 0 10px 5px #83a0f4;
+	}
+</style>
+<body>
+	<div class="container">
+		<div class="bars"></div>
+	</div>
+	<div class="content">
+		<h1>Swift OS</h1>
+		<p>SwiftOS is an arch-based distribution with a user-friendly installer, desktop interface, and GUI package manager.</p>
+		<div class="buttons">
+			<button id="download">Download Now</button>
+			<button id="discord">Discord</button>
+			
+		</div>
+	</div>
+	<nav>
+		<h2>Natesworks.com</h2>
+		<div class="close">
+			<div></div>
+		</div>
+		<ul>
+			<li><a href="https://natesworks.com/">Home</a></li>
+			<li><a href="https://natesworks.com/projects">Projects</a></li>
+			<li><a href="https://paypal.me/natesworks">Donate</a></li>
+		</ul>
+	</nav>
+	<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+	<script src="/script.js"></script>
+</body>
+
+</html>
