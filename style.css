@@ -163,8 +163,8 @@ a {
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	gap: 40px;
 	max-width: 1200px;
-	margin: 120px auto 20px; /* Create space below navbar, and center grid */
-	padding: 0 20px; /* Add padding to the sides */
+	margin: 120px auto 20px;
+	padding: 0 20px;
 }
 
 .grid-item {
