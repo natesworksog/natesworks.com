@@ -17,10 +17,6 @@ const open = document.querySelector('.container');
 			tl.reverse();
 		});
 
-document.getElementById("download").addEventListener("click", function() {
-	window.location.href = "https://drive.google.com/open?id=1Nae-f3gua1hKm9shzewBhjCmcr78PS67&authuser=0"; 
-});
-
-document.getElementById("discord").addEventListener("click", function() {
-	window.location.href = "https://discord.gg/SJCft8eR3Q"; 
+document.getElementById("swiftuigithub").addEventListener("click", function() {
+	window.location.href = "https://github.com/natesworks/swiftui"; 
 });
