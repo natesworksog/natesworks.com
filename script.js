@@ -17,6 +17,6 @@ const open = document.querySelector('.container');
 			tl.reverse();
 		});
 
-document.getElementById("swiftuigithub").addEventListener("click", function() {
-	window.location.href = "https://github.com/natesworks/swiftui"; 
+document.getElementById("teagithub").addEventListener("click", function() {
+	window.location.href = "https://github.com/natesworks/tea"; 
 });
