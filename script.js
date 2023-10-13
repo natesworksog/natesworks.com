@@ -20,3 +20,4 @@ const open = document.querySelector('.container');
 document.getElementById("teagithub").addEventListener("click", function() {
 	window.location.href = "https://github.com/natesworks/tea"; 
 });
+
