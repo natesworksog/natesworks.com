@@ -17,7 +17,11 @@ const open = document.querySelector('.container');
 			tl.reverse();
 		});
 
+
 document.getElementById("teagithub").addEventListener("click", function() {
 	window.location.href = "https://github.com/natesworks/tea"; 
 });
 
+document.getElementById("fluxgithub").addEventListener("click", function() {
+	window.location.href = "https://github.com/natesworks/flux"; 
+});
